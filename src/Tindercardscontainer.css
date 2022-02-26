@@ -1,0 +1,49 @@
+.CardContainer {
+  margin: 6.5vh auto;
+  position: relative;
+  width: 30vw;
+  height: 60vh;
+  min-width: 275px;
+  min-height: 330px;
+  /* max-width: 60vw; */
+  -webkit-box-shadow: 6px 15px 38px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 15px 38px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 15px 38px 0px rgba(0, 0, 0, 0.75);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  object-fit: contain;
+}
+
+.card {
+  min-width: 275px;
+  min-height: 330px;
+  border-radius: 20px;
+  position: absolute;
+  width: 30vw;
+  height: 60vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card > h3 {
+  color: aliceblue;
+  position: absolute;
+  bottom: 2.5vh;
+  left: 5.7vw;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+@media screen and (max-width: 400px) {
+  .CardContainer {
+    width: 80vw;
+    height: 100vh;
+  }
+
+  .card {
+    width: 80vw;
+    height: 100vh;
+  }
+}

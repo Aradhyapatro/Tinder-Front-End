@@ -1,0 +1,31 @@
+.removeStyle {
+  height: 400px;
+}
+
+.contain {
+  cursor: pointer;
+  display: flex;
+  background-color: rgba(231, 234, 240, 0.849);
+  padding: 10px;
+  border-bottom: solid 1px #f6f6ff;
+}
+
+.img {
+  margin: auto 0;
+}
+
+.mid {
+  margin-left: 16px;
+}
+
+.mid > h3 {
+  font-size: medium;
+}
+
+.mid > p {
+  color: grey;
+}
+
+.time {
+  margin-left: auto;
+}

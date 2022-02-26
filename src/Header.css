@@ -1,0 +1,20 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  align-items: center;
+  padding: 12px;
+  opacity: 0.6;
+  border-bottom: 1px solid grey;
+  -moz-box-shadow: 0px 13px 41px -1px rgba(0, 0, 0, 0.51);
+  box-shadow: 0px 13px 41px -1px rgba(0, 0, 0, 0.51);
+  background-color: rgba(248, 229, 229, 0.432);
+}
+
+.logo {
+  color: red;
+}
+
+.remove {
+  color: grey;
+}
