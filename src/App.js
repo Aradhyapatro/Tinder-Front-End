@@ -23,6 +23,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Main people={people} />}></Route>
+
         <Route path="/Chats" element={<Chats people={people} />}></Route>
         <Route path="/:name" element={<ChatsScreen people={people} />}></Route>
       </Routes>
